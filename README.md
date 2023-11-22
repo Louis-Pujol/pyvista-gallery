@@ -16,10 +16,12 @@ firefox build/html/index.html
 ```bash
 cd mkdocs
 pip install -r requirements.txt
-mkdocs serve
+bash serve.sh
 ```
 
 ## TODO :
 - [x] Create a gallery with `sphinx-gallery` with a static pyvista plot 
 - [x] Create a gallery with `sphinx-gallery` with a pyvista animation
-- [] understand how `pyvista.plotting.utilities.sphinx_gallery.Scraper` works
+- [x] Understand how `pyvista.plotting.utilities.sphinx_gallery.Scraper` works
+- [x] Write a pyvista scraper in `mkdocs-gallery`
+- [x] Replicate static/animated examples with pyvista

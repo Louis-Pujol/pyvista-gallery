@@ -1,6 +1,6 @@
 """
 
-Collision
+Animation
 =========
 Perform a collision detection between two meshes.
 
@@ -27,12 +27,11 @@ colliding with another sphere.
 """
 
 import numpy as np
-
 import pyvista as pv
 
 pv.OFF_SCREEN = True
 pv.BUILDING_GALLERY = True
-pv.set_plot_theme("document")
+# pv.set_plot_theme("document")
 
 
 # %%
@@ -57,7 +56,7 @@ pl.add_mesh(sphere0, show_scalar_bar=False, cmap="bwr")
 pl.camera_position = "xz"
 pl.add_mesh(sphere1, style="wireframe", color="green", line_width=5)
 # for this example
-pl.open_gif("collision_movie.gif")
+pl.open_gif("animation.gif")
 # alternatively, to disable movie generation:
 # pl.show(auto_close=False, interactive=False)
 delta_x = 0.05
@@ -77,10 +76,4 @@ for i in range(int(2 / delta_x)):
 
 
 pl.show()
-
-import matplotlib.pyplot as plt
-#plt.imshow(plt.imread("collision_movie.gif"))
-plt.imshow(pl.image)
-plt.axis("off")
-plt.show()
 
