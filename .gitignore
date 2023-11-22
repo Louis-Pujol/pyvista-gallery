@@ -1,0 +1,7 @@
+# Generayed files
+*generated/
+*auto_examples/
+*build/
+
+# Python cache
+*__pycache__/

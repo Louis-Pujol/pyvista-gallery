@@ -1,0 +1,4 @@
+pyvista
+imageio
+sphinx
+sphinx-gallery
