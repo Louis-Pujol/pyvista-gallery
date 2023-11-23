@@ -25,3 +25,4 @@ bash serve.sh
 - [x] Understand how `pyvista.plotting.utilities.sphinx_gallery.Scraper` works
 - [x] Write a pyvista scraper in `mkdocs-gallery`
 - [x] Replicate static/animated examples with pyvista
+- [ ] Move examples folder outside of docs
