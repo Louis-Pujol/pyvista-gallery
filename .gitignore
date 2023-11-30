@@ -2,6 +2,7 @@
 *generated/
 *auto_examples/
 *build/
+*site/
 
 # Python cache
 *__pycache__/
