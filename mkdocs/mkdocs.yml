@@ -10,4 +10,5 @@ plugins:
   - search  # make sure the search plugin is still enabled
 
 nav:
+  - Home: index.md
   - Gallery: generated/gallery/index.md
