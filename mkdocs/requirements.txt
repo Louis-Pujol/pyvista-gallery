@@ -2,4 +2,4 @@ pyvista
 
 mkdocs
 mkdocs-material
-mkdocs-gallery
+mkdocs-gallery @ git+https://github.com/Louis-Pujol/mkdocs-gallery.git@latest
